@@ -1,0 +1,141 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+body{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  padding: 0 10px;
+  background: #675AFE;
+  background: url("");
+}
+::selection{
+  color: #fff;
+  background: #675AFE;
+}
+.header{
+  align-items: center;
+  justify-content: center;
+  font-size: 40px;
+  font-weight: 700;
+  
+}
+.subheading{
+  display: flex;
+  margin-top: 25px;
+  align-items: center;
+  justify-content: center;
+  font-weight: 600;
+  background-color: aqua;
+  color: black;
+}
+.convertedNo{
+  font-size: 25px;
+  margin-top: 15px;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  background-color:rgb(7, 233, 214);
+  border-radius: 8px;
+  box-shadow: 3px white;
+  height: 45px;
+  color: black;
+  
+
+}
+.currencyIcon{
+  align-items: center;
+}
+.wrapper{
+    width: 370px;
+    padding: 30px;
+    border-radius: 7px;
+    background: #fff;
+    box-shadow: 7px 7px 20px rgba(0, 0, 0, 0.05);
+    background-color: rgb(7, 7, 160);
+    color: #fff;
+    background-image: url("OIP\ \(6\).jfif");
+  }
+  .wrapper header{
+    font-size: 28px;
+    font-weight: 500;
+    text-align: center;
+  }
+  .wrapper form{
+    margin: 40px 0 20px 0;
+  }
+  
+  p{
+    font-size: 18px;
+    margin-top: 5px;
+    
+  }
+  form input{
+    height: 50px;
+    font-size: 17px;
+    padding: 0 15px;
+    border: 1px solid #999;
+    width: auto;
+  }
+  .from-control{
+    width: auto;
+  }
+  #dropdown{
+      width: 300px;
+    display: flex;
+    height: 45px;
+    align-items: center;
+    border-radius: 5px;
+    justify-content: center;
+    border: 1px solid #999;
+    background-color: #fff;
+  }
+  
+  #inputvalue{
+    width: 300px;
+    margin-left: 2px;
+    border-radius: 8px;
+    margin-top: 10px;
+    height: 35px;
+    margin-bottom: 10px;
+  }
+  .select-box select{
+    width: auto;
+    font-size: 16px;
+    background: none;
+    margin: 0 -5px 0 5px;
+  }
+  .select-box select::-webkit-scrollbar{
+    width: 8px;
+  }
+  .select-box select::-webkit-scrollbar-track{
+    background: #fff;
+  }
+  .select-box select::-webkit-scrollbar-thumb{
+    background: #888;
+    border-radius: 8px;
+    border-right: 2px solid #ffffff;
+  }
+  #convert_button{
+    margin-top: 10px;
+    align-items: center;
+    justify-content: center;
+    height: 45px;
+    margin-left: 60px;
+    width: 180px;
+    font-weight: 300;
+    background-color:rgb(9, 215, 230);
+    border-radius: 8px ;
+    
+  }
+#outputdiv{
+  align-items: center;
+  justify-content: center;
+  margin: auto;
+}
+  
